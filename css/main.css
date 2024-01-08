@@ -68,7 +68,6 @@ header > .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 .section1InformationLeft {
   display: flex;
@@ -128,44 +127,76 @@ header > .container {
   border-radius: 20px;
 }
 .registration-modal {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .registration-modal label {
-    display: block;
-    margin-bottom: 10px;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .registration-modal input {
-    width: 93%;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  width: 93%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 .registration-modal button {
-    background-color: #4caf50;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .registration-modal button:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
-.none{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.none {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* кадырмамат */
+.img-pizza {
+  width: 300px;
+}
+.name {
+  font-size: 20px;
+}
+.desc {
+  font-size: 15px;
+}
+.price {
+  font-size: 20px;
+}
+.choos {
+  color: orange;
+}
+.btn-add {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(117, 82, 18);
+}
+.container-pizza {
+  width: 300px;
+  height: 450px;
+}
+.pizza {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

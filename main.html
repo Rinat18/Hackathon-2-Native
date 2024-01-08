@@ -40,16 +40,16 @@
       </div>
     </header>
     <div class="registration-modal">
-        <h2>Регистрация</h2>
-        <form>
-            <label for="username">Имя пользователя:</label>
-            <input type="text" id="username" name="username" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="password">Пароль:</label>
-            <input type="password" id="password" name="password" required>
-            <button type="button" onclick="register()">Зарегистрироваться</button>
-        </form>
+      <h2>Регистрация</h2>
+      <form>
+        <label for="username">Имя пользователя:</label>
+        <input type="text" id="username" name="username" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required />
+        <button type="button" onclick="register()">Зарегистрироваться</button>
+      </form>
     </div>
     <section class="section1">
       <div class="container">
@@ -131,6 +131,27 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="pizza">
+      <div class="container">
+        <!-- ! Modal Start -->
+        <div class="modal">
+          <input class="name mod" type="text" placeholder="name" />
+          <input class="desk mod" type="text" placeholder="year" />
+          <input class="price mod" type="text" placeholder="type" />
+          <input class="img mod" type="text" placeholder="img" />
+          <button class="submitButton btnsub">Submit</button>
+          <button class="submitButtonback btnsubback">X</button>
+        </div>
+        <!-- !modal end -->
+
+        <!-- !card start -->
+        <div class="cont-card">
+          <div class="card"></div>
+        </div>
+        <!-- !card end -->
       </div>
     </section>
     <script src="./js/main.js"></script>
