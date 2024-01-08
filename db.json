@@ -86,6 +86,13 @@
       "desc": "Цыпленок, моцарелла, смесь сыров чеддер и пармезан, томаты, чеснок сухой, сырный соус, соус альфредо",
       "price": 475,
       "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/4c7751e9fb5047a49cb016f8842b3714_584x584.webp"
+    },
+    {
+      "name": "8967",
+      "desk": "7678",
+      "img": "\thttps://dodopizza-a.akamaihd.net/static/Img/Products/c940c5751e6d420e997d86c26a8ba16f_584x584.webp",
+      "price": "pizzas",
+      "id": 13
     }
   ],
   "kombo": [
