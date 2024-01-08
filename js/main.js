@@ -86,4 +86,5 @@ async function logUser() {
       }
     }
   });
+  let qwe = []
 }
