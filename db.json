@@ -1,6 +1,36 @@
 {
-  "users": [],
-  "login": [],
+  "users": [
+    {
+      "name": "rinat",
+      "email": "molniymakvin",
+      "password": "123",
+      "isAdmin": true,
+      "id": 1
+    },
+    {
+      "name": "qwe",
+      "email": "qwe",
+      "password": "qwe",
+      "isAdmin": false,
+      "id": 2
+    }
+  ],
+  "login": [
+    {
+      "name": "rinat",
+      "email": "molniymakvin",
+      "password": "123",
+      "isAdmin": true,
+      "id": 1
+    },
+    {
+      "name": "qwe",
+      "email": "qwe",
+      "password": "qwe",
+      "isAdmin": false,
+      "id": 2
+    }
+  ],
   "cards": [],
   "pizzas": [
     {
