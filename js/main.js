@@ -1,5 +1,6 @@
 let API = "http://localhost:8000/users";
 let APIlog = "http://localhost:8000/login";
+let APIpizza = "http://localhost:8000/pizzas"
 
 let modalAuthBtn = document.querySelector(".Section1DodoLog");
 let modalRegister = document.querySelector(".registration-modal");
@@ -86,7 +87,6 @@ async function logUser() {
       }
     }
   });
-  let qwe = []
 }
 //?--------------------------------------------kadyrmamat-----------------------------------------------------------
 //!modal
@@ -102,7 +102,7 @@ let submitButtonBack = document.querySelector(".submitButtonback");
 viewCard();
 let card = document.querySelector(".card");
 async function viewCard() {
-  let res = await fetch(API);
+  let res = await fetch(APIpizza);
   let data = await res.json();
   data.forEach((elem) => {
     card.innerHTML += `
