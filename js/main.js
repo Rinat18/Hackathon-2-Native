@@ -1,6 +1,6 @@
 let API = "http://localhost:8000/users";
 let APIlog = "http://localhost:8000/login";
-let APIpizza = "http://localhost:8000/pizzas"
+let APIpizza = "http://localhost:8000/pizzas";
 
 let modalAuthBtn = document.querySelector(".Section1DodoLog");
 let modalRegister = document.querySelector(".registration-modal");
